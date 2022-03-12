@@ -1,0 +1,190 @@
+/* importa o bootstrap*/
+@import url("../css/bootstrap.min.css");
+@import url("../css/scroll.css");
+/**/
+body{
+	/**background:url('../images/back1.gif');
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;**/
+}
+.card{
+	background: rgba(0,0,0, 0.0)!important;
+	border: none;
+}
+.trans{
+	background: rgba(0,0,0, 0.8)!important;
+}
+
+a,p,h1,h2,h3,h4{
+	color: white;
+}
+p{
+	font-size: 16px;
+}
+.header-site{
+	padding: 1em 2em!important;
+	background: rgb(2,0,36);
+	background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.navbar-nav a{
+	color: white!important;
+}
+
+.dropdown-menu{
+	background: black;
+}
+/*section home*/
+.section-home{
+	background:url('../images/back2.gif');
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+.section-home .row{
+	padding: 120px 2em 150% 2em;
+}
+.section-home .row h1{
+	color: lightblue;
+}
+.btn{
+	width: auto!important;
+	border: none;
+	background: #090022;
+}
+.page-link, .page-link:hover{
+	background: transparent;
+	border: none;
+	height: 100px;
+}
+
+/* section quem faz */
+.section-quem-faz{
+  background:url('../images/back4.gif');
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  text-align: center;
+}
+.section-quem-faz .row{
+  padding: 100% 2em;
+}
+.section-quem-faz h1{
+  padding:50px 0;
+}
+.section-quem-faz .me{
+  max-height: 80%;
+  max-width: 80%;
+}
+.section-quem-faz ul{
+  list-style: none;
+}
+.section-quem-faz ul > li{
+  width: 50px;
+  height: 50px;
+  float: left;
+  padding: 5px;
+}
+
+/* section-projects */
+.section-projects{
+background:url('images/eva.gif');
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+}
+.section-projects .row{
+padding: 100% 2em;
+}
+.section-projects .row img{
+max-width: 300px;
+max-height: 300px;
+}
+
+/*section desenvolvimento*/
+.section-projects{
+	background:url('../images/eva.gif');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.section-projects .row{
+	padding: 100% 2em;
+}
+.section-projects .row img{
+	max-width: 300px;
+	max-height: 300px;
+}
+
+
+/*section desenvolvimento*/
+.section-desenvolvimento{
+	background:url('../images/back3.gif');
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+.section-desenvolvimento .row{
+	padding: 100% 2em;
+}
+.section-desenvolvimento .row img{
+	max-width: 300px;
+	max-height: 300px;
+}
+
+
+
+
+
+
+/*section notion*/
+.section-notion{
+	background:url('../images/back5.gif');
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+.section-notion .row{
+	padding: 100% 2em;
+}
+.section-notion .row img{
+	max-width: 300px;
+	max-height: 300px;
+}
+/*footer-site*/
+.footer-site{
+	background:url('../images/back1.gif');
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+/*card*/
+.card-title{
+	color: white;
+}
+
+.card-img-top{
+	max-width: 100%;
+	max-height: 400px;
+}
+/*modal*/
+.modal-header{
+	border: none;
+}
+
+.modal-content{
+	background: rgba(0,0,0, 0.8)!important;
+}
+
+.modal-title{
+	color: lightblue;
+}
+
+.modal-header button:not(:disabled) {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
